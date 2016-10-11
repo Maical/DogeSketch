@@ -1,0 +1,76 @@
+#container {
+	display: inline-block;
+	position: absolute;
+	top: 90px;
+	left: 100px;
+	width: 600px;
+	height: 350px;
+	background-color: #375646;
+	cursor: url(.././_media/rsz_chalc.png), auto;		
+	border-top: 10px solid #ffd866;
+	border-right: 10px solid #ffd866;
+	border-left: 10px solid #ffd866;
+	border-bottom: 30px solid #ffd866;
+	box-shadow: 5px 5px 5px black;
+}
+#doge{
+	display: inline-block;
+	position: relative;	
+	top: 90px;
+	left: 800px;
+	margin: auto;
+}
+#dogeface{
+	border-radius: 50px;
+}
+.fade{
+	opacity: 0;
+	transition: opacity 3s
+}
+.chalk{
+	position: absolute;
+	float: right;
+	width: 10px;
+	height: 10px;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.text{
+	position: absolute;
+	width: 70px;
+	height: 30px;
+	left: -20px;
+	top: 80px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
+	z-index: 1;
+	font-size: 20pt;
+}
+.startupText{
+	position: absolute;
+	width: 200px;
+	height: 30px;
+	left: 50px;
+	top: 80px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
+	color: white;
+	z-index: 1;
+	font-size: 25pt;
+}
+.startupText2{
+	position: absolute;
+	width: 270px;
+	height: 30px;
+	left: 320px;
+	top: 120px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
+	color: white;
+	z-index: 1;
+	font-size: 27pt;
+}
+body{
+	background-image: url(.././_media/classroom-background.jpg);
+}
